@@ -969,7 +969,7 @@ contract GloriousChain is Ownable, ERC20 {
     constructor()
 
     ERC20("Glorious Chain", "GLR"){
-        setDexPairing(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);
+        setDexPairing(0x10ED43C718714eb63d5aA57B78B54704E256024E);
         _mint(_msgSender(), 77777777 * 10** decimals());
     }
 
